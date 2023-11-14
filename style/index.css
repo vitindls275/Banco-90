@@ -1,0 +1,19 @@
+:root{
+    --marron: #302727;
+    --vermelho: #ba2d2d;
+    --laranja: #f2511b;
+    --laranja-alguma-coisa: #f2861b;
+    --laranjaClaro: #f2871b98;
+    --amarelo: #c7c730;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+header, footer{
+    background-color: var(--vermelho)!important;
+}
+
+.nav-link{
+    color: var(--branco)!important;
+}
+
