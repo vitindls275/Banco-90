@@ -2,8 +2,8 @@
     --marron: #302727;
     --vermelho: #ba2d2d;
     --laranja: #f2511b;
-    --laranja-alguma-coisa: #f2861b;
-    --laranjaClaro: #f2871b98;
+    --laranja-claro: #f2861b;
+    --laranja-alguma-coisa: #f2871b98;
     --amarelo: #c7c730;
     --branco: #ffffff;
     --preto: #000000;
@@ -17,3 +17,83 @@ header, footer{
     color: var(--branco)!important;
 }
 
+header, footer {
+    background-color: var(--vermelho);
+}
+
+nav div a {
+    color: var(--branco) !important;
+}
+
+nav div button {
+    border-color: var(--branco) !important;
+    color: var(--branco) !important;
+}
+
+nav div button:hover {
+    background-color: var(--branco) !important;
+    color: var(--preto) !important;
+}
+
+#image {
+    height: 35rem;
+}
+
+.w-40 {
+    width: 43%;
+}
+
+#botao a {
+    border: 2px solid var(--laranja) !important;
+    background-color: var(--preto) !important;
+    color: var(--branco);
+}
+
+#cartaoUm, #cartaoDois, #cartaoTres {
+    background-position: center;
+    background-size: cover;
+}
+
+#cartaoUm {
+    background-image: url(../images/cartaoUm.jpg);
+}
+
+#cartaoDois {
+    background-image: url(../images/cartaoDois.jpg);
+}
+
+#cartaoTres {
+    background-image: url(../images/cartaoTres.jpg);
+}
+
+table .cor {
+    background-color: var(--vermelho) !important;
+    color: var(--branco) !important;
+    border: none !important;
+}
+
+table td {
+    border: 1px solid var(--preto) !important;
+}
+
+#imgServices {
+    background-image: url(../images/bannerBeneficios.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    #image div {
+        width: auto !important;
+    }
+
+    #image h5 {
+        font-size: 16pt !important;
+    }
+    #image p {
+        font-size: 12pt !important;
+    }
+    #idForm {
+        width: 100% !important;
+    }
+}
