@@ -55,15 +55,15 @@ nav div button:hover {
 }
 
 #cartaoUm {
-    background-image: url(../images/cartaoUm.jpg);
+    background-image: url(../assets/images/cartaoUm.jpg);
 }
 
 #cartaoDois {
-    background-image: url(../images/cartaoDois.jpg);
+    background-image: url(../assets/images/cartaoDois.jpg);
 }
 
 #cartaoTres {
-    background-image: url(../images/cartaoTres.jpg);
+    background-image: url(../assets/images/cartaoTres.jpg);
 }
 
 table .cor {
